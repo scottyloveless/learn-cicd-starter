@@ -20,5 +20,5 @@ jobs:
 
       - name: Print version
         run: |
-          echo go-version
+          echo "1.23.0"
           exit 0
