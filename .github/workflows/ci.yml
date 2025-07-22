@@ -18,7 +18,5 @@ jobs:
         with:
           go-version: "1.23.0"
 
-      - name: Print version
-        run: |
-          echo "1.23.0"
-          exit 0
+      - name: Run unit tests
+        run: go test ./...
